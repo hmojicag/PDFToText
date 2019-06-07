@@ -8,9 +8,12 @@ Small Java Application which converts a PDF file to a text file using the PDFBox
     
 ## How to run
 
-1. Download latest jar: 
-1. Run
+Download latest jar: [pdf2text.jar](https://github.com/hmojicag/PDFToText/raw/master/builds/pdf2text.jar)
+Run
 
-    java -jar  pdf2text.jar <path/to/pdf/file> <text/file/output/path/>
+    java -jar pdf2text.jar <path/to/pdf/file> <text/file/output/path/>
 
-    
+Example
+
+    java -jar pdf2text.jar "C:\Users\user\Downloads\Report.pdf" "C:\Users\user\Downloads\Report.txt"
+
